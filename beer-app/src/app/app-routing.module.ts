@@ -7,6 +7,7 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 
 const routes: Routes = [
   {path:'', component:AppComponent, children:[
+    {path:'', component:HomePageComponent},
     {path:'home', component:HomePageComponent},
     {path:'beer', component:BeerPageComponent},
     {path:'food', component:FoodPageComponent}

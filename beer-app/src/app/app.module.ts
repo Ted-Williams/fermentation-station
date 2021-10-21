@@ -16,6 +16,7 @@ import {NzBreadCrumbModule} from 'ng-zorro-antd/breadcrumb';
 import { BeerPageComponent } from './components/beer-page/beer-page.component';
 import { FoodPageComponent } from './components/food-page/food-page.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
+import { NzCardModule } from 'ng-zorro-antd/card';
 
 registerLocaleData(en);
 
@@ -35,7 +36,8 @@ registerLocaleData(en);
     NzLayoutModule,
     NzBreadCrumbModule,
     NzMenuModule,
-    NzGridModule
+    NzGridModule,
+    NzCardModule,
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent]
