@@ -36,7 +36,7 @@ The logo was created using [Free Logo Maker](https://logomakr.com). It was desig
 
 The colours for the website were chosen using [Coolors](https://coolors.co/). They were chosen with the aim to represent the Fermentation Brand and the love that goes into it. The chosen colours are:
 
-![](assets/images/coolors.png)
+![](beer-app/src/assets/images/coolors.png)
 
 3. **Fonts**
 
@@ -46,6 +46,6 @@ The website has the main font of Roboto Slab, which was chosen due to it **reada
 
 The wireframes for this website where created using [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAjwltH3BRB6EiwAhj0IUBrAHe-2BiRjQmQGSO-FZIjoEjkckL_kVyJXd5ShGVwKqDaDMqKjvBoCQksQAvD_BwE)
 
-![](wireframes/desktop.png)
-![](wireframes/tablet.png)
-![](wireframes/phone.png)
+![](beer-app/src/assets/images/wireframes/desktop.png)
+![](beer-app/src/assets/images/wireframes/tablet.png)
+![](beer-app/src/assets/images/wireframes/phone.png)
