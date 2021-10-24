@@ -50,8 +50,35 @@ The wireframes for this website where created using [Balsamiq](https://balsamiq.
 ![](beer-app/src/assets/images/wireframes/tablet.png)
 ![](beer-app/src/assets/images/wireframes/phone.png)
 
+### Database Structure
 
+Key      | Value
+---------|-----------
+_id      | ObjectId
+username | String
+password | String
 
+Key           | Value
+--------------|-----------
+_id           | ObjectId
+prouct        | String
+total_price   | String
+
+Key           | Value
+--------------|-----------
+_id           | ObjectId
+beer          | String
+price         | String
+tast          | String
+colour        | String
+description   | String
+
+Key           | Value
+--------------|-----------
+_id           | ObjectId
+food          | String
+price         | String
+description   | String
 
 
 
