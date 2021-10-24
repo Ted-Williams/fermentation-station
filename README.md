@@ -119,6 +119,11 @@ The features that were added to the project were designed to have a high level o
 * [Github](https://github.com/)
 * [Favicon Creator](https://www.favicon.cc/?action=import_request)
 
+## Testing
+---
+
+### All Sections
+
 ## Credits
 ---
 
