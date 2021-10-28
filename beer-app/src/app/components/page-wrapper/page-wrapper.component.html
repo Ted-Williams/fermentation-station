@@ -1,0 +1,32 @@
+<nz-layout class="layout">
+  <nz-header>
+    <div class="logo"></div>
+    <ul nz-menu nzTheme="dark" nzMode="horizontal">
+      <li nz-menu-item routerLink="/home" routerLinkActive="ant-menu-item-selected">Home</li>
+      <li nz-menu-item routerLink="/beer" routerLinkActive="ant-menu-item-selected">Beer</li>
+      <li nz-menu-item routerLink="/food" routerLinkActive="ant-menu-item-selected">Food</li>
+      <li nz-menu-item routerLink="/login" routerLinkActive="ant-menu-item-selected">Login</li>
+    </ul>
+  </nz-header>
+  <nz-content>
+    <nz-breadcrumb>
+      <nz-breadcrumb-item>Home</nz-breadcrumb-item>
+      <nz-breadcrumb-item *ngIf="selectedPage !== 'Home'">{{ selectedPage }}</nz-breadcrumb-item>
+    </nz-breadcrumb>
+    <div class="inner-content">
+      <router-outlet></router-outlet>
+    </div>
+  </nz-content>
+  <nz-footer>
+    <div class="footer-wrapper">
+      <div class="footer-text">
+        Fermentation Station 2021&copy;
+      </div>
+      <div>
+        <a href="https://www.facebook.com" class="facebook-icon"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.twitter.com" class="twitter-icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" class="instagram-icon"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </nz-footer>
+</nz-layout>
